@@ -1,0 +1,96 @@
+/* Általános beállítások */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff; /* White background */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: red; /* Red color for title */
+    margin: 0;
+}
+
+header a {
+    color: #333; /* Dark gray for the link */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header a:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+/* Orders section */
+.order {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order h2 {
+    color: red; /* Red color for order number */
+    font-size: 1.5rem;
+}
+
+.order p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.order h3 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: #007bff; /* Blue color for items header */
+}
+
+.order ul {
+    padding-left: 20px;
+}
+
+.order ul li {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.order form {
+    margin-top: 15px;
+}
+
+button {
+    background-color: red; /* Red background for cancel button */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e74c3c; /* Darker red on hover */
+}

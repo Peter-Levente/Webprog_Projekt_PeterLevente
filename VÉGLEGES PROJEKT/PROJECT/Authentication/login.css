@@ -1,0 +1,76 @@
+/* Alapstílusok */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Világosszürke háttér */
+    color: #333; /* Sötétszürke szöveg */
+    margin: 0;
+    padding: 0;
+}
+
+/* Fejléc stílus */
+h2 {
+    color: red; /* Piros cím */
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Fekete háttér */
+    margin: 0;
+}
+
+/* Form stílusok */
+form {
+    background-color: #bbb; /* Szürke háttér */
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333; /* Fekete gomb */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555; /* Sötétszürke hover effektus */
+}
+
+/* Regisztrációs link */
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p a {
+    color: red; /* Piros szín */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline; /* Aláhúzott link hover állapotban */
+}
+
+/* Remember me checkbox */
+label input[type="checkbox"] {
+    width: 25px;
+}
