@@ -10,7 +10,6 @@ class Order {
 
     // Rendelés létrehozása
     public function createOrder($name, $email, $address, $phone, $cartItems, $paymentMethod) {
-        // Ha a kosár üres, dobunk egy hibát
         if (empty($cartItems)) {
             throw new Exception("Your cart is empty!");
         }

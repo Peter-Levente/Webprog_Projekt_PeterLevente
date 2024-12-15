@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header("Location: thank_you.php?order_id=" . $orderId);
         exit;
     } catch (Exception $e) {
-        $error = $e->getMessage();  // Ha hiba történt, elmentjük a hibaüzenetet
+        $error = $e->getMessage();
     }
 }
 ?>

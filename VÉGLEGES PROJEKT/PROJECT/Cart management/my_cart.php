@@ -17,7 +17,7 @@ if ($conn->connect_error) {
 }
 
 // Ellenőrizzük, hogy a felhasználó be van-e jelentkezve
-$userId = $_SESSION['user_id'] ?? null; // Ha nincs bejelentkezve, akkor null értéket adunk
+$userId = $_SESSION['user_id'] ?? null; // Lekérdezzük a bejelentkezett felhasználó azonosítóját
 if (!$userId) {
     header("Location: ../Authentication/login.php"); // Ha nincs bejelentkezve, átirányítjuk a bejelentkezés oldalra
     exit;

@@ -4,8 +4,8 @@ class Cart {
     private $userId; // Az aktuális felhasználó azonosítója
 
     public function __construct($conn, $userId) {
-        $this->conn = $conn; // Inicializáljuk az adatbázis-kapcsolatot
-        $this->userId = $userId; // Beállítjuk a felhasználói azonosítót
+        $this->conn = $conn;
+        $this->userId = $userId;
     }
 
     // Új termék hozzáadása a kosárhoz vagy a meglévő mennyiségének frissítése

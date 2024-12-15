@@ -19,7 +19,7 @@ if ($conn->connect_error) {
     die("Kapcsolódási hiba: " . $conn->connect_error); // Ha a kapcsolat hibás, jelezzük
 }
 
-$userHandler = new User($conn); // Új User objektum létrehozása az adatbázis-kapcsolattal
+$userHandler = new User($conn);
 
 try {
     // Ha a bejelentkezési űrlapot elküldték, próbáljuk meg bejelentkeztetni a felhasználót
